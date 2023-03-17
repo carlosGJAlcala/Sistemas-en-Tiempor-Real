@@ -1,0 +1,62 @@
+V "GNAT Lib v9"
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV SPARK_05
+
+U sensor%b		sensor.adb		bfd72b85 NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.real_time%s	a-reatim.adb		a-reatim.ali
+W horno%s		horno.adb		horno.ali
+
+U sensor%s		sensor.ads		4fc4ff4f EE NE OO PK
+
+D ada.ads		20220527072110 76789da1 ada%s
+D a-except.ads		20220527072110 291912d5 ada.exceptions%s
+D a-reatim.ads		20220527072110 0240fc73 ada.real_time%s
+D a-unccon.ads		20220527072110 0e9b276f ada.unchecked_conversion%s
+D horno.ads		20230315083838 99cfb3f9 horno%s
+D interfac.ads		20220527072110 5ab55268 interfaces%s
+D i-c.ads		20220527072110 5421119b interfaces.c%s
+D sensor.ads		20230315223212 4fc4ff4f sensor%s
+D sensor.adb		20230315220541 6b9c9b40 sensor%b
+D system.ads		20220527072110 4635ec04 system%s
+D s-atacco.ads		20220527072110 4c36d12f system.address_to_access_conversions%s
+D s-exctab.ads		20220527072110 54135002 system.exception_table%s
+D s-linux.ads		20220527072110 ed0b8aee system.linux%s
+D s-multip.ads		20220527072110 38ac9f73 system.multiprocessors%s
+D s-oscons.ads		20220719105023 0b994636 system.os_constants%s
+D s-osinte.ads		20220719105023 710cf8c6 system.os_interface%s
+D s-parame.ads		20220527072110 48ec542b system.parameters%s
+D s-secsta.ads		20220527072110 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20220527072110 a7318a92 system.soft_links%s
+D s-stache.ads		20220527072110 a37c21ec system.stack_checking%s
+D s-stausa.ads		20220527072110 017a0a05 system.stack_usage%s
+D s-stalib.ads		20220527072110 09bd3940 system.standard_library%s
+D s-stoele.ads		20220527072110 2dc34a04 system.storage_elements%s
+D s-tasinf.ads		20220527072110 2b3f8252 system.task_info%s
+D s-taspri.ads		20220527072110 f40ac08d system.task_primitives%s
+D s-taprop.ads		20220527072110 1dd2e1b6 system.task_primitives.operations%s
+D s-taskin.ads		20220527072110 b9d612e2 system.tasking%s
+D s-traent.ads		20220527072110 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20220527072110 34867c83 system.unsigned_types%s
+X 1 ada.ads
+16K9*Ada 20e8 9|1r6 1r25
+X 3 a-reatim.ads
+39K13*Real_Time 185e18 9|1w10 1r29
+X 5 horno.ads
+1K9*Horno 7e10 9|2w6 5r20 8r9
+2F9*Temperaturas<float> 9|5r26
+6U14*Leer 9|8s15
+X 8 sensor.ads
+1K9*Sensor 4l5 4e11 9|3b14 11l5 11t11
+2F9*Temperaturas<float> 3r40 9|4r41 9r21
+3U14*Leer 3<20 9|4b15 10l9 10t13
+3f20 la_Temperatura{2F9} 9|4b21 9m5
+X 9 sensor.adb
+5f5 miTemperatura{5|2F9} 7m5 8m20 9r34
+X 21 s-stausa.ads
+203U14*Initialize 204i<c,__gnat_stack_usage_initialize>22
+268U14*Output_Results 272i<c,__gnat_stack_usage_output_results>22
+

@@ -1,0 +1,99 @@
+V "GNAT Lib v9"
+M P W=b
+P ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_ALLOCATORS_AFTER_ELABORATION
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV SPARK_05
+
+U principal%b		principal.adb		b3b2fe1a NE OO SU
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z ada.unchecked_deallocation%s
+W colas%s		colas.adb		colas.ali
+Z system%s		system.ads		system.ali
+Z system.exception_table%s  s-exctab.adb	s-exctab.ali
+Z system.img_int%s	s-imgint.adb		s-imgint.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+
+D ada.ads		20220527072110 76789da1 ada%s
+D a-except.ads		20220527072110 291912d5 ada.exceptions%s
+D a-ioexce.ads		20220527072110 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20220527072110 119b8fb3 ada.streams%s
+D a-tags.ads		20220527072110 491b781d ada.tags%s
+D a-textio.ads		20220527072110 881db35a ada.text_io%s
+D a-unccon.ads		20220527072110 0e9b276f ada.unchecked_conversion%s
+D a-uncdea.ads		20220527072110 eff36322 ada.unchecked_deallocation%s
+D colas.ads		20230310124400 1bd515f0 colas%s
+D colas.adb		20230310210134 230b93c3 colas%b
+D interfac.ads		20220527072110 5ab55268 interfaces%s
+D i-cstrea.ads		20220527072110 e53d8b8e interfaces.c_streams%s
+D principal.adb		20230310204153 207a58b0 principal%b
+D system.ads		20220527072110 4635ec04 system%s
+D s-crtl.ads		20220527072110 0ebbdb71 system.crtl%s
+D s-exctab.ads		20220527072110 54135002 system.exception_table%s
+D s-ficobl.ads		20220527072110 078245e4 system.file_control_block%s
+D s-imgint.ads		20220527072110 02dbe0c2 system.img_int%s
+D s-parame.ads		20220527072110 48ec542b system.parameters%s
+D s-secsta.ads		20220527072110 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20220527072110 a7318a92 system.soft_links%s
+D s-stache.ads		20220527072110 a37c21ec system.stack_checking%s
+D s-stalib.ads		20220527072110 09bd3940 system.standard_library%s
+D s-stoele.ads		20220527072110 2dc34a04 system.storage_elements%s
+D s-traent.ads		20220527072110 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20220527072110 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20220527072110 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 13|1r6 2r5
+X 6 a-textio.ads
+49K13*Text_IO 471e16 13|1w10 2r9
+166U14*New_Line 13|19s5 23s5 29s5 40s5 43s5 55s5 58s5 112s5 117s5
+242U14*Put 13|28s5 34s5 45s5 62s5 73s5 95s5 122s5
+263U14*Put_Line 13|14s5 20s5 24s5 30s5 38s5 41s5 44s5 50s5 53s5 56s5 65s5
+. 67s5 69s5 87s5 88s9 90s5 110s5 113s5 118s5 124s5 131s17 132s17 135s5 138s9
+. 139s9 141s9 142s9
+X 9 colas.ads
+4k9*Colas 28e10 13|1w19 4r37
+5R14 cola_t 13|8r18[4]
+7U19 Poner 13|12s9[4] 17s9[4] 36s5[4] 51s5[4] 52s5[4] 77s9[4] 83s9[4] 85s5[4]
+. 104s9[4] 107s9[4] 127s13[4]
+8U19 Quitar 13|64s5[4] 76s9[4] 80s9[4] 98s9[4] 101s9[4] 128s13[4]
+9V18 Esta_Vacia{boolean} 13|75s15[4] 79s15[4] 97s15[4] 100s15[4]
+12U19 MostrarCola 13|15s5[4] 21s5[4] 39s5[4] 42s5[4] 54s5[4] 57s5[4] 66s5[4]
+. 68s5[4] 89s5[4] 91s5[4] 111s5[4] 114s5[4] 116s5[4]
+13U19 Copiar 13|37s5[4]
+14V19 "="{boolean} 13|25s11[4] 31s11[4] 46s11[4] 59s11[4] 70s11[4] 92s11[4]
+. 119s11[4]
+X 13 principal.adb
+3U11*Principal 3b11 143l5 143t14
+4K13 Colas_de_Integer[9|4] 5r9
+6X5 Practica_no_Apta 26r15 32r15 47r15 60r15 71r15 93r15 120r15 137r10
+8r5 C1{9|5R14[4]} 12m19 12r19 15r18 25r8 25r14 31r8 77m19 77r19 91r18 92r8
+. 127m23 127r23 128m24 128r24
+8r9 C2{9|5R14[4]} 17m19 17r19 21r18 31r13 37r13 39r18 46r8 52m17 52r17 54r18
+. 59r8 66r18 70r8 75r27 76m20 76r20 83m19 83r19 85m17 85r17 89r18 92r14 100r27
+. 101m20 101r20 104m19 104r19 111r18 119r8
+8r13 C3{9|5R14[4]} 36m15 36r15 37m17 37r17 42r18 46r14 51m17 51r17 57r18
+. 59r13 64m16 64r16 68r18 70r13 79r27 80m20 80r20 97r27 98m20 98r20 107m19
+. 107r19 114r18 116r18 119r13
+9i5 E{integer} 64m13 76m17 77r16 80m17 98m17 101m17 128m21
+11i9 I{integer} 12r16
+16i9 I{integer} 17r16
+82i9 I{integer} 83r16
+103i9 I{integer} 104r16
+106i9 I{integer} 107r16
+125i9 I{integer}
+

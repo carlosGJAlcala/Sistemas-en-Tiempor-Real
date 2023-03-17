@@ -1,0 +1,95 @@
+V "GNAT Lib v9"
+M P W=b
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV SPARK_05
+
+U prueba%b		prueba.adb		c66e7b55 NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z ada.text_io.integer_aux%s  a-tiinau.adb	a-tiinau.ali
+Z ada.text_io.integer_io%s
+W fracciones%s		fracciones.adb		fracciones.ali
+Z system%s		system.ads		system.ali
+Z system.exception_table%s  s-exctab.adb	s-exctab.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+
+D ada.ads		20220527072110 76789da1 ada%s
+D a-except.ads		20220527072110 291912d5 ada.exceptions%s
+D a-ioexce.ads		20220527072110 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20220527072110 119b8fb3 ada.streams%s
+D a-tags.ads		20220527072110 491b781d ada.tags%s
+D a-textio.ads		20220527072110 881db35a ada.text_io%s
+D a-tiinau.ads		20220527072110 8114c8e4 ada.text_io.integer_aux%s
+D a-tiinio.ads		20220527072110 aa04e5d6 ada.text_io.integer_io%s
+D a-tiinio.adb		20220527072110 df9cd7af ada.text_io.integer_io%b
+D a-unccon.ads		20220527072110 0e9b276f ada.unchecked_conversion%s
+D fracciones.ads	20230223201256 51d76568 fracciones%s
+D interfac.ads		20220527072110 5ab55268 interfaces%s
+D i-cstrea.ads		20220527072110 e53d8b8e interfaces.c_streams%s
+D prueba.adb		20230223210333 36bdbfb2 prueba%b
+D system.ads		20220527072110 4635ec04 system%s
+D s-crtl.ads		20220527072110 0ebbdb71 system.crtl%s
+D s-exctab.ads		20220527072110 54135002 system.exception_table%s
+D s-ficobl.ads		20220527072110 078245e4 system.file_control_block%s
+D s-parame.ads		20220527072110 48ec542b system.parameters%s
+D s-secsta.ads		20220527072110 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20220527072110 a7318a92 system.soft_links%s
+D s-stache.ads		20220527072110 a37c21ec system.stack_checking%s
+D s-stalib.ads		20220527072110 09bd3940 system.standard_library%s
+D s-stoele.ads		20220527072110 2dc34a04 system.storage_elements%s
+D s-traent.ads		20220527072110 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20220527072110 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20220527072110 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 14|1r6 2r6 3r5 63r30 69r35
+X 2 a-except.ads
+54K13*Exceptions 349e19 14|2w10 63r34 69r39
+104V13*Exception_Information{string} 14|63s45 69s50
+X 6 a-textio.ads
+49K13*Text_IO 471e16 14|1w10 3r9
+242U14*Put 14|19s9 21s9 23s9 28s9 32s9 36s9 39s9 42s9 45s9 48s9 51s9 63s25
+263U14*Put_Line 14|25s9 59s9 62s25 65s25 66s25 67s25 68s25 69s25
+X 8 a-tiinio.ads
+46k21*Integer_IO 85e27 14|6r35
+X 11 fracciones.ads
+1K9*Fracciones 35e15 14|1w19 3r18
+2R14*fraccion_t 34e27 14|9r12 10r12 11r12
+4V19*"+"{2R14} 14|29s19 30s13
+5V19*"-"{2R14} 14|10s26 33s18 34s12 34s18 41s19 44s19
+6V19*"-"{2R14} 14|37s19 38s13 46s19 47s13 49s19 50s13
+7V19*"*"{2R14} 14|40s19 41s13 56s13
+8V19*"/"{2R14} 14|43s19 44s13 52s19 53s13
+9V19*"="{boolean} 14|26s14 30s16 34s15 38s16 41s16 44s16 47s16 50s16 58s13
+13U19*Escribir 14|20s9 22s9 24s9 29s9 33s9 37s9 40s9 43s9 46s9 49s9 52s9
+16V19*"/"{2R14} 14|9s27 10s28 11s27 26s18 30s20 34s20 38s20 41s21 44s21 47s20
+. 50s20 54s13 58s17
+19V18*Numerador{integer} 14|15s12
+20V18*Denominador{positive} 14|16s17
+X 14 prueba.adb
+5U11*Prueba 5b11 70l5 70t11
+6K17 Integer_Es[8|46] 7r13
+8X9 Practica_no_Apta 26r35 30r36 34r34 38r34 41r35 44r35 47r34 50r34 58r34
+. 61r35
+9r9 A{11|2R14} 20r18 29r18 30r12 33r19 34r13 37r18 38r12 40r18 41r12 43r18
+. 44r12 46r18 47r12 49r18 49r20 50r12 50r14 52r18 53r12
+10r9 B{11|2R14} 15r23 16r30 22r18 26r12 29r20 30r14 37r20 38r14 40r20 41r14
+. 43r20 44r14 46r20 47r14 56r14
+11r9 P{11|2R14} 24r18 52r20 53m9 53r14 54m9 56m9 56r12 58r12
+55i13 I{integer}
+61r22 Ocurrencia{2|63R9} 63r68
+64r22 Ocurrencia{2|63R9} 69r73
+

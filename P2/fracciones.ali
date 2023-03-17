@@ -1,0 +1,135 @@
+V "GNAT Lib v9"
+P ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_RECURSION
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV SPARK_05
+
+U fracciones%b		fracciones.adb		08a34eea NE OO PK
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z ada.text_io.integer_aux%s  a-tiinau.adb	a-tiinau.ali
+Z ada.text_io.integer_io%s
+Z system.concat_3%s	s-conca3.adb		s-conca3.ali
+Z system.img_int%s	s-imgint.adb		s-imgint.ali
+
+U fracciones%s		fracciones.ads		51d76568 EE NE OO PK
+
+D ada.ads		20220527072110 76789da1 ada%s
+D a-except.ads		20220527072110 291912d5 ada.exceptions%s
+D a-ioexce.ads		20220527072110 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20220527072110 119b8fb3 ada.streams%s
+D a-tags.ads		20220527072110 491b781d ada.tags%s
+D a-textio.ads		20220527072110 881db35a ada.text_io%s
+D a-tiinau.ads		20220527072110 8114c8e4 ada.text_io.integer_aux%s
+D a-tiinio.ads		20220527072110 aa04e5d6 ada.text_io.integer_io%s
+D a-tiinio.adb		20220527072110 df9cd7af ada.text_io.integer_io%b
+D a-unccon.ads		20220527072110 0e9b276f ada.unchecked_conversion%s
+D fracciones.ads	20230223201256 51d76568 fracciones%s
+D fracciones.adb	20230223220450 d16998d8 fracciones%b
+D interfac.ads		20220527072110 5ab55268 interfaces%s
+D i-cstrea.ads		20220527072110 e53d8b8e interfaces.c_streams%s
+D system.ads		20220527072110 4635ec04 system%s
+D s-conca3.ads		20220527072110 0b705ca5 system.concat_3%s
+D s-crtl.ads		20220527072110 0ebbdb71 system.crtl%s
+D s-exctab.ads		20220527072110 54135002 system.exception_table%s
+D s-ficobl.ads		20220527072110 078245e4 system.file_control_block%s
+D s-imgint.ads		20220527072110 02dbe0c2 system.img_int%s
+D s-parame.ads		20220527072110 48ec542b system.parameters%s
+D s-secsta.ads		20220527072110 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20220527072110 a7318a92 system.soft_links%s
+D s-stache.ads		20220527072110 a37c21ec system.stack_checking%s
+D s-stalib.ads		20220527072110 09bd3940 system.standard_library%s
+D s-stoele.ads		20220527072110 2dc34a04 system.storage_elements%s
+D s-traent.ads		20220527072110 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20220527072110 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20220527072110 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 12|1r6 2r5 123r31
+X 6 a-textio.ads
+49K13*Text_IO 471e16 12|1w10 2r9 123r35
+166U14*New_Line 12|141s17
+242U14*Put 12|140s17
+263U14*Put_Line 12|127s17 129s17
+X 8 a-tiinio.ads
+46k21*Integer_IO 85e27 12|123r43
+56U14 Get 12|128s24[123] 130s24[123]
+X 11 fracciones.ads
+1K9*Fracciones 31E22 35l5 35e15 12|4b15 160l5 160t15
+2R14*fraccion_t 4r29 4r48 5r26 5r45 6r29 6r48 7r29 7r48 8r29 8r48 9r29 12r32
+. 13r32 16r45 19r32 20r32 23r31 23r50 26r25 26r44 31c22 34e27 12|9r29 9r48
+. 10r20 16r29 16r48 17r16 23r20 23r39 24r16 30r29 30r48 31r16 45r29 45r48
+. 46r16 52r45 53r16 70r29 96r31 96r50 97r20 110r25 110r44 111r17 122r32 125r16
+. 136r32 137r15 145r32 146r20 152r33 153r20
+4V19*"+"{2R14} 4>23 4>26 12|9b19 14l14 14t16 20s21
+4r23 X{2R14} 12|9b23 12r31 12r49 12r57
+4r26 Y{2R14} 12|9b26 12r37 12r43 12r63
+5V19*"-"{2R14} 5>23 12|20s23 23b13 28l8 28t10
+5r23 X{2R14} 12|23b17 26r18 26r26
+6V19*"-"{2R14} 6>23 6>26 12|16b19 22l10 22t12
+6r23 X{2R14} 12|16b23 20r20
+6r26 Y{2R14} 12|16b26 20r24
+7V19*"*"{2R14} 7>23 7>26 12|30b19 42l10 42t12 48s21
+7r23 X{2R14} 12|30b23 34r20 35r22
+7r26 Y{2R14} 12|30b26 34r26 35r28
+8V19*"/"{2R14} 8>23 8>26 12|45b19 50l10 50t12
+8r23 X{2R14} 12|45b23 48r20
+8r26 Y{2R14} 12|45b26 48r32
+9V19*"="{boolean} 9>23 9>26 12|70b19 77l14 77t16
+9r23 X{2R14} 12|70b23 72r21 72r37
+9r26 Y{2R14} 12|70b26 72r27 72r43
+12U19*Leer 12<25 12|122b19 134l13 134t17
+12r25 F{2R14} 12|122b25 131m9 132m9 133r28
+13U19*Escribir 13>29 12|136b19 142l13 142t21
+13r29 F{2R14} 12|136b29 139r28
+16V19*"/"{2R14} 16>23 16>26 12|12s55 26s24 37s29 52b19 68l10 68t12 102s32
+. 104s31 116s30
+16i23 X{integer} 12|52b23 55r13 60r25 63r24
+16i26 Y{integer} 12|52b26 59r15 61r24 64r24
+19V18*Numerador{integer} 19>29 12|140s35 145b18 150l13 150t22
+19r29 F{2R14} 12|145b29 148r36
+20V18*Denominador{positive} 20>30 12|140s80 152b18 157l13 157t24
+20r30 F{2R14} 12|152b30 155r28
+23V19*invertir{2R14} 23>29 12|48s23 96b19 108l9 108t17
+23r29 x{2R14} 12|96b29 100r12 102r26 102r35 104r25 104r32
+24V14*mcm{integer} 24>19 24>21 12|89b14 94l9 94t12
+24i19 x{integer} 12|89b19 92r21 92r29
+24i21 y{integer} 12|89b21 92r23 92r31
+25V14*mcd{integer} 25>19 25>21 12|80b14 85s20 87l9 87t12 92s25 114s27 115s29
+25i19 a{integer} 12|80b19 83r20 85r27
+25i21 b{integer} 12|80b21 82r12 85r24 85r33
+26V14*reducir{2R14} 26>23 12|13s25 39s20 49s16 106s24 110b14 118l9 118t16
+. 133s20 139s20 148s28 155s20
+26r23 X{2R14} 12|110b23 114r21 114r31 114r37 115r23 115r33 115r39
+32i25*Num{integer} 12|12r33 12r45 26r20 34r22 34r28 56m19 60m19 63m19 72r23
+. 72r45 100r14 102r37 104r34 114r23 114r33 115r35 132m11 149r34
+33i25*Den{positive} 12|12r39 12r51 12r59 12r65 26r28 35r24 35r30 57m19 61m19
+. 64m19 72r29 72r39 102r28 104r27 114r39 115r25 115r41 131m11 156r34
+X 12 fracciones.adb
+10r9 resultado{11|2R14} 12m17 13r33
+17r5 resultado{11|2R14} 20m9 21r16
+24r5 resultado{11|2R14} 26m5 27r12
+31r5 resultado{11|2R14} 37m9 39m9 39r28 41r16
+32i5 numerador{integer} 34m9 37r20
+32i15 denominador{integer} 35m9 37r30
+46r5 resultado{11|2R14} 48m9 49r24
+53r5 resultado{11|2R14} 56m9 57m9 60m9 61m9 63m9 64m9 67r16
+90i5 resultado{integer} 92m9 93r16
+97r9 resultado{11|2R14} 102m13 104m13 106m13 106r32 107r20
+111r5 resultado{11|2R14} 116m9 117r16
+112i5 numeradorA{integer} 114m9 116r20
+112i16 denominadorA{integer} 115m9 116r31
+123K17 ES_int[8|46] 128r17 130r17
+124i9 Num{integer} 128m28 132r16
+124i14 Den{integer} 130m28 131r16
+125r5 resultado{11|2R14} 133m9
+137r5 resultado{11|2R14} 139m9 140r45 140r92
+146r9 resultado{11|2R14} 148m17 149r24
+153r9 resultado{11|2R14} 155m9 156r24
+
