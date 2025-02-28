@@ -9,14 +9,8 @@ Este repositorio contiene las prácticas y proyectos desarrollados en la asignat
 El repositorio incluye los siguientes directorios y archivos:
 
 - **`practicas/`**: Carpeta que contiene las diferentes prácticas realizadas a lo largo del curso.
-  - **`practica1/`**: Primera práctica enfocada en [descripción breve de la práctica 1].
-  - **`practica2/`**: Segunda práctica que aborda [descripción breve de la práctica 2].
-  - **`practica3/`**: Tercera práctica centrada en [descripción breve de la práctica 3].
-  - **`practica4/`**: Cuarta práctica que trata sobre [descripción breve de la práctica 4].
-  - **`practica5/`**: Quinta práctica dedicada a [descripción breve de la práctica 5].
 
 - **`proyectos/`**: Directorio que alberga proyectos más extensos o integradores.
-  - **`proyecto_final/`**: Proyecto final del curso que consiste en [descripción breve del proyecto final].
 
 - **`documentacion/`**: Contiene documentación relevante, como manuales de usuario, informes técnicos y presentaciones.
   - **`informe_practicas.pdf`**: Documento que recopila los informes de todas las prácticas realizadas.
